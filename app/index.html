@@ -1,0 +1,43 @@
+<!--
+File: index.html
+Author: Ónodi András
+Copyright: 2024, Ónodi András
+Group: Szoft I-2-N
+Date: 2024-05-30
+Github: https://github.com/AndrasOnodi/
+Licenc: GNU GPL
+-->
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Átló</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">        
+  </head>
+  <body>
+    <div class="container">
+      <h1>Átló</h1>
+      <div class="form">
+        <div class="input">
+          <label for="aValue" class="form-label">A adat</label>
+          <input type="text" id="aValue" class="form-control">
+        </div>
+        <div class="input">
+          <label for="bValue" class="form-label">B adat</label>
+          <input type="text" id="bValue" class="form-control">
+        </div>
+        <div class="mt2">
+          <button id="calcButton" class="btn btn-primary">Számítás</button>
+        </div>
+        <div class="input">
+          <label for="atlo" class="form-label">Átló</label>
+          <input type="text" id="atlo" class="form-control">
+        </div>
+      </div>
+    </div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
+
